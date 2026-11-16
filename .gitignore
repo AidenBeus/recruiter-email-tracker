@@ -1,0 +1,22 @@
+# Local credentials and personal application data
+.env
+credentials.json
+token.json
+data/
+__pycache__/
+.streamlit/secrets.toml
+
+# Local Python environments and tooling caches
+.venv/
+venv/
+*.py[cod]
+.pytest_cache/
+
+# Local databases and run output
+*.db
+*.sqlite
+*.sqlite3
+logs/
+
+# Personal assignment artifact; keep the submitted Canvas copy out of the repo
+chat_transcript.txt
